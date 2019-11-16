@@ -1,6 +1,6 @@
 package com.company;
 
-public class Player {
+public abstract class Player implements SuperAbilitable {
     private int health;
     private  int damage;
 
@@ -24,4 +24,6 @@ public class Player {
     public void setDamage(int damage) {
         this.damage = damage;
     }
+
+
 }

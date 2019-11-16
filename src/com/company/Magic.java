@@ -17,4 +17,9 @@ public class Magic extends Player {
 
 
     }
+
+    @Override
+    public void applyAbility() {
+        System.out.println("✨");
+    }
 }

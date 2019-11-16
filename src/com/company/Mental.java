@@ -16,4 +16,9 @@ public class Mental extends Player {
         this.manTreat = manTreat;
 
     }
+
+    @Override
+    public void applyAbility() {
+        System.out.println("\uD83C\uDFE5");
+    }
 }

@@ -3,6 +3,7 @@ package com.company;
 public class Boss extends Player {
     private String defenceType;
 
+
     public Boss(int health, int damage, String defenceType) {
         super(health, damage);
         this.defenceType = defenceType;
@@ -14,5 +15,10 @@ public class Boss extends Player {
 
     public void setDefenceType(String defenceType) {
         this.defenceType = defenceType;
+    }
+
+    @Override
+    public void applyAbility(){
+
     }
 }

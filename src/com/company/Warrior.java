@@ -15,4 +15,9 @@ public class Warrior extends Player {
     public void setHit(int hit) {
         this.hit = hit;
     }
+
+    @Override
+    public void applyAbility() {
+        System.out.println("⚔");
+    }
 }
